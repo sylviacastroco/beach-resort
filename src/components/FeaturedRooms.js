@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { RoomContext } from '../Context';
+import { RoomContext } from '../context';
 import Loading from './Loading';
 import Room from './Room';
 import Title from './Title';
@@ -16,7 +16,7 @@ export default class FeaturedRooms extends Component {
     return (
       <section className='featured-rooms'>
         <Title title='featured rooms' />
-        <div className='featured-rooms center'>
+        <div className='featured-rooms-center'>
           {loading ? <Loading /> : rooms}
         </div>
       </section>

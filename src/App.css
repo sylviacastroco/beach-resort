@@ -320,7 +320,7 @@ h6 {
 /* featured rooms */
 
 .featured-rooms {
-  padding: 5rem 0;
+  padding-top: 5rem;
 }
 
 .featured-rooms-center {
@@ -351,6 +351,7 @@ h6 {
 .room {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
+  margin: 2rem;
 }
 
 .room:hover {
@@ -520,9 +521,9 @@ h6 {
   width: 80vw;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-  grid-row-gap: 2rem;
-  grid-column-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-row-gap: 1rem;
+  grid-column-gap: 15px;
 }
 
 @media screen and (min-width: 776px) {
